@@ -58,12 +58,12 @@ include("../includes/connect.php");
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'ektavaghasiya9@gmail.com'; // Your email
-                $mail->Password   = 'twyh vxdk lbin qpnm'; // Your email password
+                $mail->Username   = 'Your email'; // Your email
+                $mail->Password   = 'Your PWD'; // Your email password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port       = 587;
 
-                $mail->setFrom('ektavaghasiya9@gmail.com', 'Ekta Patel');
+                $mail->setFrom('Your Email', 'Your Name');
                 $mail->addAddress($user_email);
 
                 $mail->isHTML(true);
