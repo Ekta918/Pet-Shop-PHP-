@@ -1,0 +1,205 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo
+{
+    width: 7%;
+    height: 7%;
+}
+.card-img-top
+{
+    width:100%;
+    height: 200px;
+    object-fit: contain;
+}
+.admin_image
+{
+    width: 20%;
+    object-fit: contain;
+}
+/* Basic navbar styling */
+.navbar {
+    background-color:#003366;
+    padding: 0.5rem 1rem; /* Padding for the navbar */
+}
+.navbar1 {
+    background-color:#4E9A9A; /* Dark background color for the navbar */
+    padding: 0.5rem 1rem; /* Padding for the navbar */
+}
+.navbar1 .nav-link1 {
+    color: #ffffff; /* Default color for navbar links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 1rem; /* Padding for each link */
+    display: block; /* Make links block-level for better spacing */
+}
+
+/* Navbar links */
+.navbar .nav-link {
+    color:#ffffff;; /* Default color for navbar links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem 1rem; /* Padding for each link */
+    display: block; /* Make links block-level for better spacing */
+}
+
+/* Change color on hover */
+.navbar .nav-link:hover {
+    color: #f8f9fa; /* Light color for links on hover */
+    background-color: #d5dbe238; /* Background color on hover (optional) */
+}
+
+/* Change color for active state */
+.navbar .nav-link.active {
+    color: #f7f5f1ea; /* Color for the active link */
+    font-weight: bold; /* Optional: make active link bold */
+}
+
+/* Navbar item styling */
+.navbar .nav-item {
+    display: inline-block; /* Display navbar items inline */
+}
+.navbar1 .nav-link1:hover {
+    color: #f8f9fa; /* Light color for links on hover */
+    background-color: #d5dbe238; /* Background color on hover (optional) */
+}
+
+/* Change color for active state */
+.navbar1 .nav-link1.active {
+    color: #f7f5f1ea; /* Color for the active link */
+    font-weight: bold; /* Optional: make active link bold */
+}
+
+/* Navbar item styling */
+.navbar1 .nav-item1 {
+    display: inline-block; /* Display navbar items inline */
+}
+.side-nav-heading {
+    background-color: #009688; /* Example color for background */
+    color: #ffffff;            /* Text color */
+    font-size: 1.2em;          /* Slightly larger text for emphasis */
+    padding: 10px 15px;        /* Padding around the text */
+    font-weight: bold;         /* Make the text bold */
+    border-bottom: 2px solid #F0F0F0; /* Light border for subtle separation */
+    margin-bottom: 10px;       /* Space below the heading */
+  }
+  .sidebar-item {
+    color: #F0F0F0;            /* Muted Grey for text color */
+    background-color: #2c3e50;
+    font-size: 1em;            /* Standard font size */
+    padding: 8px 12px;         /* Padding around each item */
+    text-decoration: none;     /* Remove underline from links */
+    display: block;            /* Ensure items occupy the full width */
+    border-bottom: 1px solid #e0e0e0; /* Light grey border for separation */
+  }
+  .carousel-caption {
+    bottom: 20%;
+}
+.carousel-caption h5 {
+    font-size: 2rem;
+}
+.heading
+{
+    color: #094741;
+}
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+.btn-shop-now {
+    background-color: #009688; /* Teal color */
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.btn-shop-now:hover {
+    background-color: #00796b; /* Slightly darker teal */
+    color: white;
+}
+/* Footer Styles */
+footer {
+    background-color: #333333; /* Dark gray background */
+}
+
+footer h5 {
+    border-bottom: 2px solid #009688; /* Teal underline for headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #dcdcdc; /* Light gray text */
+}
+
+footer ul li a:hover {
+    color: #009688; /* Teal color on hover */
+}
+
+footer .text-light {
+    color: #f5f5f5 !important; /* Light text color */
+}
+
+footer .text-white {
+    color: #ffffff !important; /* White text color for headings */
+}
+
+footer .bg-dark {
+    background-color: #1a1a1a; /* Dark background for the footer */
+}
+.about-section {
+    padding: 60px 0;
+}
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.team-member {
+    background: #e6d8d8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #343a40;
+}
+.section-subheading {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6c757d;
+}
+/* Offer Banner Styles */
+.offer-banner {
+    background-color: #f44336; /* Red background */
+    color: #ffffff; /* White text */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.offer-banner h4 {
+    margin: 0;
+}
